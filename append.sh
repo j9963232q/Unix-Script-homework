@@ -1,5 +1,7 @@
 #!/bin/bash
-##
+#append.sh : $# means the number of arguments from command prompt, 
+# if it equals 1, then you can write string line by line into the file
+# else, if you have to arguments, it means append the first to the second.
 
 if [[ $# == 1 ]];then
     echo "you can stop the input by using ctrl+d"
